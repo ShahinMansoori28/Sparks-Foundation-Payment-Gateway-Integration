@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  height: 100vh;
+  background-image: url("./assests/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(245, 185, 19, 0.9);
+  padding: 0.8rem 0.6rem;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  margin-left: 4%;
+  background-image: url('./assests/logo_small.png');
+  background-size: cover;
+  background-position: center;
+  width: 2rem;
+  height: 2rem;
+}
+
+.links-hdrs {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header {
+  font-family: "McLaren", cursive;
+  margin: 0 0.5rem;
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  padding: 0 0.3rem;
+  border-bottom: 2px solid rgba(101, 101, 101, 0.2);
+  transition: all 200ms ease-in-out;
+}
+
+header a span {
+  margin-left: 0.2rem;
+}
+
+header a:hover {
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  color: #ccc;
+}
+
+.btn-btn {
+  background-color: #00c9b7 !important;
+  position: relative !important;
+  left: -27% !important;
+  top: 3rem !important;
+  padding: 0.5rem 1.8rem !important;
+  font-size: 1.5rem !important;
+  color: black !important;
+  border-radius: 8px !important;
+  transition: all 200ms ease-in-out !important;
+}
+
+.btn-btn:hover {
+  top: 2.5rem !important;
+}
